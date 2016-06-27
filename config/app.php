@@ -155,7 +155,11 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+       
+        /*
+         * Added Service Providers...
+         */
+        Laravel\Cashier\CashierServiceProvider::class
     ],
 
     /*

@@ -26,23 +26,6 @@ class TestController extends Controller {
     }
 
     /**
-     * Send mail
-     *
-     * @return Response
-     */
-    public function mail() {
-        Mail::raw('Text of the letter', function($message) {
-            $message->from('m5-asutp@azot.ck.ua', 'm5-asutp')->subject('Test Laravel!');
-
-            $message->to('bsa2657@yandex.ru')->cc('bs261257@gmail.com');
-        });
-
-        return view('test.email', [
-            'mail' => 'Test send message',
-        ]);
-    }
-
-    /**
      * DataBase operations
      *
      * @return Response
@@ -131,6 +114,23 @@ class TestController extends Controller {
         
         return view('test.addtask');
     }
+    
+    /**
+     * Send mail
+     *
+     * @return Response
+     */
+    public function mail() {
+        Mail::raw('Text of the letter', function($message) {
+            $message->from('m5-asutp@azot.ck.ua', 'm5-asutp')->subject('Test Laravel!');
+
+            $message->to('bsa2657@yandex.ru')->cc('bs261257@gmail.com');
+        });
+
+        return view('test.email', [
+            'mail' => 'Test send message',
+        ]);
+    }
 
     /**
      * Send mail from template
@@ -156,43 +156,12 @@ class TestController extends Controller {
      */
     public function mailgun() {
 
-        /*
-          curl -s --user 'api:key-77f268518902706eb094311e5a55e3d2' \
-          https://api.mailgun.net/v3/sandboxc8b8b9a79ceb463997df4aa57b08e005.mailgun.org/messages \
-          -F from='Mailgun Sandbox <postmaster@sandboxc8b8b9a79ceb463997df4aa57b08e005.mailgun.org>' \
-          -F to='Sergei <bs261257@gmail.com>' \
-          -F subject='Hello Sergei' \
-          -F text='Congratulations Sergei, you just sent an email with Mailgun!  You are truly awesome!'
+        Mail::raw('Text of the letter', function($message) {
+            $message->from('m5-asutp@azot.ck.ua', 'PostMaster')->subject('Test Laravel!');
 
-          You can see a record of this email in your logs: https://mailgun.com/cp/log
-
-          You can send up to 300 emails/day from this sandbox server. Next, you should add your own domain so you can send 10,000 emails/month for free.'
-         */
-
-        /*
-
-          curl -s --user 'api:key-77f268518902706eb094311e5a55e3d2' https://api.mailgun.net/v3/sandboxc8b8b9a79ceb463997df4aa57b08e005.mailgun.org/messages -F from='Mailgun Sandbox <postmaster@sandboxc8b8b9a79ceb463997df4aa57b08e005.mailgun.org>' -F to='Sergei <bs261257@gmail.com>' -F subject='Hello Sergei' -F text='Congratulations Sergei, you just sent an email with Mailgun!  You are truly awesome!'
-
-         */
-
-
-        /**
-          # Include the Autoloader (see "Libraries" for install instructions)
-          require 'vendor/autoload.php';
-          use Mailgun\Mailgun;
-
-          # Instantiate the client.
-          $mgClient = new Mailgun('key-77f268518902706eb094311e5a55e3d2');
-          $domain = "sandboxc8b8b9a79ceb463997df4aa57b08e005.mailgun.org";
-
-          # Make the call to the client.
-          $result = $mgClient->sendMessage("$domain",
-          array('from'    => 'Mailgun Sandbox <postmaster@sandboxc8b8b9a79ceb463997df4aa57b08e005.mailgun.org>',
-          'to'      => 'Sergei <bs261257@gmail.com>',
-          'subject' => 'Hello Sergei',
-          'text'    => 'Congratulations Sergei, you just sent an email with Mailgun!  You are truly awesome!  You can see a record of this email in your logs: https://mailgun.com/cp/log .  You can send up to 300 emails/day from this sandbox server.  Next, you should add your own domain so you can send 10,000 emails/month for free.'));
-
-         */
+            $message->to('bs261257@gmail.com');
+        });
+        
         return view('test.email', [
             'mail' => 'Test send message from mailgun',
         ]);
