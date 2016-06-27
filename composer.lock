@@ -4,9 +4,56 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "409f3395b8fdd981dd6b8779b640a816",
-    "content-hash": "4c0d320f3ffd6907b4fa31a5be53193e",
+    "hash": "bf34433f487d4da5376d1cbbb28df884",
+    "content-hash": "e2b1f9e3cc6a3dfa9c169f0944228702",
     "packages": [
+        {
+            "name": "braintree/braintree_php",
+            "version": "3.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/braintree/braintree_php.git",
+                "reference": "0c13b6235bc99c287d18e8cfc02359e66abaa3fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/braintree/braintree_php/zipball/0c13b6235bc99c287d18e8cfc02359e66abaa3fb",
+                "reference": "0c13b6235bc99c287d18e8cfc02359e66abaa3fb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-hash": "*",
+                "ext-openssl": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Braintree": "lib/"
+                },
+                "psr-4": {
+                    "Braintree\\": "lib/Braintree"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Braintree",
+                    "homepage": "http://www.braintreepayments.com"
+                }
+            ],
+            "description": "Braintree PHP Client Library",
+            "time": "2016-06-23 15:36:49"
+        },
         {
             "name": "classpreloader/classpreloader",
             "version": "3.0.0",
@@ -160,6 +207,47 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "dompdf/dompdf",
+            "version": "v0.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dompdf/dompdf.git",
+                "reference": "cc06008f75262510ee135b8cbb14e333a309f651"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/cc06008f75262510ee135b8cbb14e333a309f651",
+                "reference": "cc06008f75262510ee135b8cbb14e333a309f651",
+                "shasum": ""
+            },
+            "require": {
+                "phenx/php-font-lib": "0.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "include/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Ménager",
+                    "email": "fabien.menager@gmail.com"
+                },
+                {
+                    "name": "Brian Sweeney",
+                    "email": "eclecticgeek@gmail.com"
+                }
+            ],
+            "description": "DOMPDF is a CSS 2.1 compliant HTML to PDF converter",
+            "homepage": "https://github.com/dompdf/dompdf",
+            "time": "2015-12-07 04:07:13"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -426,40 +514,43 @@
         },
         {
             "name": "laravel/cashier",
-            "version": "v5.0.15",
+            "version": "v6.0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/cashier.git",
-                "reference": "8fac59e82ab4b317930e7571ada1caa27fbc7648"
+                "reference": "1e5c092a14150af194e3ec2d774f07c5b1c4da01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/cashier/zipball/8fac59e82ab4b317930e7571ada1caa27fbc7648",
-                "reference": "8fac59e82ab4b317930e7571ada1caa27fbc7648",
+                "url": "https://api.github.com/repos/laravel/cashier/zipball/1e5c092a14150af194e3ec2d774f07c5b1c4da01",
+                "reference": "1e5c092a14150af194e3ec2d774f07c5b1c4da01",
                 "shasum": ""
             },
             "require": {
-                "illuminate/filesystem": "~5.0",
-                "illuminate/support": "~5.0",
+                "dompdf/dompdf": "^0.6.1",
+                "illuminate/database": "~5.1",
+                "illuminate/support": "~5.1",
                 "nesbot/carbon": "~1.0",
-                "php": ">=5.4.0",
+                "php": ">=5.5.9",
                 "stripe/stripe-php": "~3.0",
-                "symfony/http-kernel": "~2.3"
+                "symfony/http-kernel": "~2.7|~3.0"
             },
             "require-dev": {
-                "illuminate/routing": "~5.0",
-                "illuminate/view": "~5.0",
+                "illuminate/http": "~5.1",
+                "illuminate/routing": "~5.1",
+                "illuminate/view": "~5.1",
                 "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.0",
+                "vlucas/phpdotenv": "~2.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
+                "psr-4": {
                     "Laravel\\Cashier\\": "src/"
                 }
             },
@@ -479,7 +570,68 @@
                 "laravel",
                 "stripe"
             ],
-            "time": "2016-03-19 03:00:12"
+            "time": "2016-06-17 18:59:32"
+        },
+        {
+            "name": "laravel/cashier-braintree",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/cashier-braintree.git",
+                "reference": "35fa42836e83d846e758ce503b47d8ea0fdd0947"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/cashier-braintree/zipball/35fa42836e83d846e758ce503b47d8ea0fdd0947",
+                "reference": "35fa42836e83d846e758ce503b47d8ea0fdd0947",
+                "shasum": ""
+            },
+            "require": {
+                "braintree/braintree_php": "~3.0",
+                "dompdf/dompdf": "^0.6.1",
+                "illuminate/database": "~5.1",
+                "illuminate/support": "~5.1",
+                "nesbot/carbon": "~1.0",
+                "php": ">=5.5.9",
+                "symfony/http-kernel": "~2.7|~3.0"
+            },
+            "require-dev": {
+                "illuminate/http": "~5.1",
+                "illuminate/routing": "~5.1",
+                "illuminate/view": "~5.1",
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0",
+                "vlucas/phpdotenv": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Cashier\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "Laravel Cashier provides an expressive, fluent interface to Braintree's subscription billing services.",
+            "keywords": [
+                "billing",
+                "braintree",
+                "cashier",
+                "laravel"
+            ],
+            "time": "2016-05-25 18:41:03"
         },
         {
             "name": "laravel/framework",
@@ -962,6 +1114,40 @@
             "time": "2016-03-18 20:34:03"
         },
         {
+            "name": "phenx/php-font-lib",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhenX/php-font-lib.git",
+                "reference": "c30c7fc00a6b0d863e9bb4c5d5dd015298b2dc82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhenX/php-font-lib/zipball/c30c7fc00a6b0d863e9bb4c5d5dd015298b2dc82",
+                "reference": "c30c7fc00a6b0d863e9bb4c5d5dd015298b2dc82",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "classes/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Ménager",
+                    "email": "fabien.menager@gmail.com"
+                }
+            ],
+            "description": "A library to read, parse, export and make subsets of different types of font files.",
+            "homepage": "https://github.com/PhenX/php-font-lib",
+            "time": "2014-02-01 15:22:28"
+        },
+        {
             "name": "psr/log",
             "version": "1.0.0",
             "source": {
@@ -1241,33 +1427,33 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v2.8.7",
+            "version": "v3.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "c7d6d8a599e4609a1abc76351d6234a2997e16ed"
+                "reference": "e67e1552dd7313df1cf6535cb606751899e0e727"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/c7d6d8a599e4609a1abc76351d6234a2997e16ed",
-                "reference": "c7d6d8a599e4609a1abc76351d6234a2997e16ed",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/e67e1552dd7313df1cf6535cb606751899e0e727",
+                "reference": "e67e1552dd7313df1cf6535cb606751899e0e727",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9",
+                "php": ">=5.5.9",
                 "psr/log": "~1.0"
             },
             "conflict": {
                 "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
             },
             "require-dev": {
-                "symfony/class-loader": "~2.2|~3.0.0",
-                "symfony/http-kernel": "~2.3.24|~2.5.9|~2.6,>=2.6.2|~3.0.0"
+                "symfony/class-loader": "~2.8|~3.0",
+                "symfony/http-kernel": "~2.8|~3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1294,20 +1480,20 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-06 15:06:25"
+            "time": "2016-06-06 15:08:35"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.0.7",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "2bd63cc8b94882084565d2ec3fae5b8d6878398b"
+                "reference": "f5b7563f67779c6d3d5370e23448e707c858df3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/2bd63cc8b94882084565d2ec3fae5b8d6878398b",
-                "reference": "2bd63cc8b94882084565d2ec3fae5b8d6878398b",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/f5b7563f67779c6d3d5370e23448e707c858df3e",
+                "reference": "f5b7563f67779c6d3d5370e23448e707c858df3e",
                 "shasum": ""
             },
             "require": {
@@ -1327,7 +1513,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -1354,7 +1540,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-06 11:33:26"
+            "time": "2016-06-06 11:42:41"
         },
         {
             "name": "symfony/finder",
@@ -1460,44 +1646,44 @@
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v2.8.7",
+            "version": "v3.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "6b8e5b6100457642e7141dbbfe29f387cbd7e0ef"
+                "reference": "97cc1c15e3406e7a2adf14ad6b0e41a04d4a6fc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/6b8e5b6100457642e7141dbbfe29f387cbd7e0ef",
-                "reference": "6b8e5b6100457642e7141dbbfe29f387cbd7e0ef",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/97cc1c15e3406e7a2adf14ad6b0e41a04d4a6fc4",
+                "reference": "97cc1c15e3406e7a2adf14ad6b0e41a04d4a6fc4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9",
+                "php": ">=5.5.9",
                 "psr/log": "~1.0",
-                "symfony/debug": "~2.6,>=2.6.2",
-                "symfony/event-dispatcher": "~2.6,>=2.6.7|~3.0.0",
-                "symfony/http-foundation": "~2.5,>=2.5.4|~3.0.0"
+                "symfony/debug": "~2.8|~3.0",
+                "symfony/event-dispatcher": "~2.8|~3.0",
+                "symfony/http-foundation": "~2.8|~3.0"
             },
             "conflict": {
-                "symfony/config": "<2.7"
+                "symfony/config": "<2.8"
             },
             "require-dev": {
-                "symfony/browser-kit": "~2.3|~3.0.0",
-                "symfony/class-loader": "~2.1|~3.0.0",
-                "symfony/config": "~2.8",
-                "symfony/console": "~2.3|~3.0.0",
-                "symfony/css-selector": "~2.0,>=2.0.5|~3.0.0",
-                "symfony/dependency-injection": "~2.8|~3.0.0",
-                "symfony/dom-crawler": "~2.0,>=2.0.5|~3.0.0",
-                "symfony/expression-language": "~2.4|~3.0.0",
-                "symfony/finder": "~2.0,>=2.0.5|~3.0.0",
-                "symfony/process": "~2.0,>=2.0.5|~3.0.0",
-                "symfony/routing": "~2.8|~3.0.0",
-                "symfony/stopwatch": "~2.3|~3.0.0",
-                "symfony/templating": "~2.2|~3.0.0",
-                "symfony/translation": "~2.0,>=2.0.5|~3.0.0",
-                "symfony/var-dumper": "~2.6|~3.0.0"
+                "symfony/browser-kit": "~2.8|~3.0",
+                "symfony/class-loader": "~2.8|~3.0",
+                "symfony/config": "~2.8|~3.0",
+                "symfony/console": "~2.8|~3.0",
+                "symfony/css-selector": "~2.8|~3.0",
+                "symfony/dependency-injection": "~2.8|~3.0",
+                "symfony/dom-crawler": "~2.8|~3.0",
+                "symfony/expression-language": "~2.8|~3.0",
+                "symfony/finder": "~2.8|~3.0",
+                "symfony/process": "~2.8|~3.0",
+                "symfony/routing": "~2.8|~3.0",
+                "symfony/stopwatch": "~2.8|~3.0",
+                "symfony/templating": "~2.8|~3.0",
+                "symfony/translation": "~2.8|~3.0",
+                "symfony/var-dumper": "~2.8|~3.0"
             },
             "suggest": {
                 "symfony/browser-kit": "",
@@ -1511,7 +1697,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1538,7 +1724,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-06 16:05:21"
+            "time": "2016-06-06 16:52:35"
         },
         {
             "name": "symfony/polyfill-mbstring",

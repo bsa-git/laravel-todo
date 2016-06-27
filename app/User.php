@@ -4,9 +4,15 @@ namespace App;
 
 use App\Task;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Laravel\Cashier\Billable;
+use Laravel\Cashier\Contracts\Billable as BillableContract;
 
-class User extends Authenticatable
+class User extends Authenticatable implements BillableContract
 {
+    use Billable;
+    
+    protected $dates = ['trial_ends_at', 'subscription_ends_at'];
+    
     /**
      * The attributes that are mass assignable.
      *
