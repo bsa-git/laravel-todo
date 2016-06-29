@@ -5,9 +5,8 @@ namespace App;
 use App\Task;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Laravel\Cashier\Billable;
-use Laravel\Cashier\Contracts\Billable as BillableContract;
 
-class User extends Authenticatable implements BillableContract
+class User extends Authenticatable
 {
     use Billable;
     
