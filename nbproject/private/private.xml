@@ -3,11 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/OpenServer/domains/laravel-todo/storage/logs/laravel.log</file>
+            <file>file:/C:/OpenServer/domains/laravel-todo/resources/views/test/emails/reminder.blade.php</file>
             <file>file:/C:/OpenServer/domains/laravel-todo/app/Http/Controllers/TestController.php</file>
+            <file>file:/C:/OpenServer/domains/laravel-todo/app/Jobs/SendReminderEmail.php</file>
             <file>file:/C:/OpenServer/domains/laravel-todo/config/app.php</file>
+            <file>file:/C:/OpenServer/domains/laravel-todo/.env</file>
+            <file>file:/C:/OpenServer/domains/laravel-todo/app/Services/DripEmailer.php</file>
+            <file>file:/C:/OpenServer/domains/laravel-todo/resources/views/test/emails/html.blade.php</file>
+            <file>file:/C:/OpenServer/domains/laravel-todo/app/Console/Commands/SendEmails.php</file>
             <file>file:/C:/OpenServer/domains/laravel-todo/app/User.php</file>
-            <file>file:/C:/OpenServer/domains/laravel-todo/config/database.php</file>
-            <file>file:/C:/OpenServer/domains/laravel-todo/app/Http/Middleware/Authenticate.php</file>
+            <file>file:/C:/OpenServer/domains/laravel-todo/app/Http/routes.php</file>
+            <file>file:/C:/OpenServer/domains/laravel-todo/config/mail.php</file>
         </group>
     </open-files>
 </project-private>

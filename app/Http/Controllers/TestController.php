@@ -124,7 +124,7 @@ class TestController extends Controller {
         Mail::raw('Text of the letter', function($message) {
             $message->from('m5-asutp@azot.ck.ua', 'm5-asutp')->subject('Test Laravel!');
 
-            $message->to('bsa2657@yandex.ru')->cc('bs261257@gmail.com');
+            $message->to('bsa2657@yandex.ru');
         });
 
         return view('test.email', [
@@ -156,14 +156,14 @@ class TestController extends Controller {
      */
     public function mailgun() {
 
-        Mail::raw('Text of the letter', function($message) {
-            $message->from('m5-asutp@azot.ck.ua', 'PostMaster')->subject('Test Laravel!');
+        Mail::raw('Text of the letter for testing E-Mail service - Mailgun', function($message) {
+            $message->from('m5-asutp@azot.ck.ua', 'PostMaster')->subject('Test Laravel');
 
             $message->to('bs261257@gmail.com');
         });
         
         return view('test.email', [
-            'mail' => 'Test send message from mailgun',
+            'mail' => 'Test send message through Mailgun',
         ]);
     }
 
