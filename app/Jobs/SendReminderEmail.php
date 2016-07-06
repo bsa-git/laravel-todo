@@ -15,6 +15,8 @@ class SendReminderEmail extends Job implements ShouldQueue {
         SerializesModels;
 
     protected $user;
+    
+    protected  $repeats = 2;
 
     /**
      * Create a new job instance.
@@ -23,8 +25,7 @@ class SendReminderEmail extends Job implements ShouldQueue {
      * @param  string $userName
      * @return void
      */
-    public function __construct($userName) {
-        $user = User::where('name', $userName)->first();
+    public function __construct(User $user) {
 
         $this->user = $user;
     }
@@ -39,7 +40,7 @@ class SendReminderEmail extends Job implements ShouldQueue {
         
         $user = $this->user;
         
-        $mailer->send('emails.reminder', ['user' => $user], function ($m) use ($user) {
+        $mailer->send('test.emails.reminder', ['user' => $user], function ($m) use ($user) {
             // Get mail to
             $email = $user->email;
 
@@ -47,10 +48,15 @@ class SendReminderEmail extends Job implements ShouldQueue {
             $mail_from_address = config('mail.from.address');
             $mail_from_name = config('mail.from.name');
 
-            $message->from($mail_from_address, $mail_from_name)->subject('Test Laravel!');
+            $m->from($mail_from_address, $mail_from_name)->subject('Test Laravel!');
 
-            $message->to($email);
+            $m->to($email);
         });
+        
+//        if($this->repeats){
+//            $this->repeats = $this->repeats - 1;
+//            $this->release(5);
+//        }
     }
 
 }

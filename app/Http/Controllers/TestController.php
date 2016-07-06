@@ -6,11 +6,13 @@ use Auth;
 use Mail;
 use DB;
 use Carbon\Carbon;
+use Queue;
 use Crypt;
 use Event;
 use Log;
 use App\User;
 use App\Task;
+use App\Jobs\SendReminderEmail;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -97,38 +99,47 @@ class TestController extends Controller {
                 'secret' => $secret
             ])->save();
         }
-        
+
         return view('test.encrypt');
     }
-    
+
     /**
      * Add task for an authorized user
      *
      * @return Response
      */
     public function addtask(Request $request, $task) {
-        
+
         Log::info('Begin event - AddTask');
-        
+
         Event::fire(new \App\Events\AddTask($task));
-        
+
         return view('test.addtask');
     }
-    
+
     /**
      * Send mail
      *
      * @return Response
      */
     public function mail() {
-        Mail::raw('Text of the letter', function($message) {
-            $message->from('m5-asutp@azot.ck.ua', 'm5-asutp')->subject('Test Laravel!');
+        // Get auth user
+        $user = Auth::user();
 
-            $message->to('bsa2657@yandex.ru');
-        });
+//        $this->dispatch(new SendReminderEmail($user));
+//        OR
+//        dispatch(new SendReminderEmail($user));
+        // Get a job with a named queue
+//        $job = (new SendReminderEmail($user))->delay(10);
+//        // Add this job to queue
+//        $this->dispatch($job);
+
+        $date = Carbon::now()->addMinutes(15);
+
+        Queue::later($date, new SendReminderEmail($user));
 
         return view('test.email', [
-            'mail' => 'Test send message',
+            'mail' => 'Test job - to send a message',
         ]);
     }
 
@@ -161,7 +172,7 @@ class TestController extends Controller {
 
             $message->to('bs261257@gmail.com');
         });
-        
+
         return view('test.email', [
             'mail' => 'Test send message through Mailgun',
         ]);
