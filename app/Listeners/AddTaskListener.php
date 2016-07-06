@@ -33,7 +33,7 @@ class AddTaskListener implements ShouldQueue {
             'name' => $event->task_name
         ]);
 
-        Log::info('Task for the authorized user added');
+        Log::info('End event - AddTask');
     }
 
 }

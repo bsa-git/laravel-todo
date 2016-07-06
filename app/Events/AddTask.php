@@ -2,7 +2,8 @@
 
 namespace App\Events;
 
-use Auth;
+//use Auth;
+use App\User;
 use App\Events\Event;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
@@ -21,7 +22,9 @@ class AddTask extends Event implements ShouldBroadcast {
      */
     public function __construct($taskName) {
         // Get auth user
-        $this->user = Auth::user();
+//        $this->user = Auth::user();
+        $this->user = User::find(1);
+
 
         $this->task_name = $taskName;
     }

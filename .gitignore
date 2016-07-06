@@ -4,3 +4,10 @@
 Homestead.yaml
 Homestead.json
 .env
+
+# =========================
+# My Ignore
+# =========================
+
+/nbproject
+
