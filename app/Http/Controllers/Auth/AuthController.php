@@ -28,7 +28,21 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/tasks';
+    protected $redirectTo = '/';
+    
+    /**
+     * Where to redirect users after logout
+     *
+     * @var string
+     */
+    protected $redirectAfterLogout = '/';
+    
+    /**
+     * This is guard
+     *
+     * @var string
+     */
+    protected $guard = 'web';
 
     /**
      * Create a new authentication controller instance.

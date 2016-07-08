@@ -10,6 +10,7 @@ use App\Http\Controllers\Controller;
 use Auth;
 use App\Task;
 use App\Repositories\TaskRepository;
+use App\Http\Requests\StoreTaskRequest;
 
 class TaskController extends Controller
 {
@@ -52,11 +53,11 @@ class TaskController extends Controller
      * @param  Request  $request
      * @return Response
      */
-    public function store(Request $request)
+    public function store(StoreTaskRequest $request)
     {
-        $this->validate($request, [
-            'name' => 'required|max:255',
-        ]);
+//        $this->validate($request, [
+//            'name' => 'required|max:255',
+//        ]);
 
         $request->user()->tasks()->create([
             'name' => $request->name,
