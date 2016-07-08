@@ -122,7 +122,7 @@ class TestController extends Controller {
      *
      * @return Response
      */
-    public function mail() {
+    public function job() {
         // Get auth user
         $user = Auth::user();
 
@@ -134,7 +134,8 @@ class TestController extends Controller {
 //        // Add this job to queue
 //        $this->dispatch($job);
 
-        $date = Carbon::now()->addMinutes(15);
+        // Set deley for this job
+        $date = Carbon::now()->addSeconds(1);
 
         Queue::later($date, new SendReminderEmail($user));
 

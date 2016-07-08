@@ -1,0 +1,1156 @@
+Log opened at 2016-07-07 07:58:00
+I: Connecting to configured address/port: localhost:9600.
+I: Connected to client. :-)
+-> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" fileuri="file:///C:/OpenServer/domains/laravel-todo/artisan" language="PHP" xdebug:language_version="5.5.0-dev" protocol_version="1.0" appid="2208" idekey="netbeans-xdebug"><engine version="2.4.0"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[http://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2016 by Derick Rethans]]></copyright></init>
+
+<- feature_set -i 186 -n show_hidden -v 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="186" feature="show_hidden" success="1"></response>
+
+<- feature_set -i 187 -n max_depth -v 3
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="187" feature="max_depth" success="1"></response>
+
+<- feature_set -i 188 -n max_children -v 30
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="188" feature="max_children" success="1"></response>
+
+<- feature_set -i 189 -n max_data -v 2048
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="189" feature="max_data" success="1"></response>
+
+<- breakpoint_set -i 190 -t line -s enabled -f file:///C:/NginxServer/html/zf-myblog/vendor/smarty/smarty/libs/Smarty.class.php -n 1094
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="190" state="enabled" id="22080001"></response>
+
+<- breakpoint_set -i 191 -t line -s enabled -f file:///C:/NginxServer/html/zf-myblog/application/models/Profile.php -n 117
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="191" state="enabled" id="22080002"></response>
+
+<- breakpoint_set -i 192 -t line -s enabled -f file:///C:/OpenServer/domains/laravel-todo/app/Jobs/SendReminderEmail.php -n 56
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="192" state="enabled" id="22080003"></response>
+
+<- run -i 193
+Log opened at 2016-07-07 07:58:01
+I: Connecting to configured address/port: localhost:9600.
+I: Connected to client. :-)
+-> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" fileuri="file:///C:/OpenServer/domains/laravel-todo/artisan" language="PHP" xdebug:language_version="5.5.0-dev" protocol_version="1.0" appid="320" idekey="netbeans-xdebug"><engine version="2.4.0"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[http://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2016 by Derick Rethans]]></copyright></init>
+
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+Log closed at 2016-07-07 07:58:51
+
+Log opened at 2016-07-07 07:58:52
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:58:52
+
+Log opened at 2016-07-07 07:58:56
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:58:57
+
+Log opened at 2016-07-07 07:58:58
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:58:59
+
+Log opened at 2016-07-07 07:59:03
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:03
+
+Log opened at 2016-07-07 07:59:05
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:05
+
+Log opened at 2016-07-07 07:59:09
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:09
+
+Log opened at 2016-07-07 07:59:11
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:11
+
+Log opened at 2016-07-07 07:59:15
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:15
+
+Log opened at 2016-07-07 07:59:17
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:17
+
+Log opened at 2016-07-07 07:59:22
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:22
+
+Log opened at 2016-07-07 07:59:23
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:24
+
+Log opened at 2016-07-07 07:59:28
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:28
+
+Log opened at 2016-07-07 07:59:30
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:30
+
+Log opened at 2016-07-07 07:59:34
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:34
+
+Log opened at 2016-07-07 07:59:36
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:36
+
+Log opened at 2016-07-07 07:59:40
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:41
+
+Log opened at 2016-07-07 07:59:42
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:42
+
+Log opened at 2016-07-07 07:59:47
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:47
+
+Log opened at 2016-07-07 07:59:48
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:49
+
+Log opened at 2016-07-07 07:59:53
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:53
+
+Log opened at 2016-07-07 07:59:55
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:55
+
+Log opened at 2016-07-07 07:59:59
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 07:59:59
+
+Log opened at 2016-07-07 08:00:01
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:01
+
+Log opened at 2016-07-07 08:00:05
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:05
+
+Log opened at 2016-07-07 08:00:07
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:07
+
+Log opened at 2016-07-07 08:00:11
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:11
+
+Log opened at 2016-07-07 08:00:13
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:13
+
+Log opened at 2016-07-07 08:00:17
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:17
+
+Log opened at 2016-07-07 08:00:19
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:19
+
+Log opened at 2016-07-07 08:00:23
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:23
+
+Log opened at 2016-07-07 08:00:25
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:25
+
+Log opened at 2016-07-07 08:00:29
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:30
+
+Log opened at 2016-07-07 08:00:31
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:31
+
+Log opened at 2016-07-07 08:00:36
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:36
+
+Log opened at 2016-07-07 08:00:37
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:38
+
+Log opened at 2016-07-07 08:00:42
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:42
+
+Log opened at 2016-07-07 08:00:44
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:44
+
+Log opened at 2016-07-07 08:00:48
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:48
+
+Log opened at 2016-07-07 08:00:50
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:50
+
+Log opened at 2016-07-07 08:00:54
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:55
+
+Log opened at 2016-07-07 08:00:56
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:00:57
+
+Log opened at 2016-07-07 08:01:01
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:01
+
+Log opened at 2016-07-07 08:01:03
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:03
+
+Log opened at 2016-07-07 08:01:07
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:07
+
+Log opened at 2016-07-07 08:01:09
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:09
+
+Log opened at 2016-07-07 08:01:13
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:13
+
+Log opened at 2016-07-07 08:01:15
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:15
+
+Log opened at 2016-07-07 08:01:19
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:20
+
+Log opened at 2016-07-07 08:01:21
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:21
+
+Log opened at 2016-07-07 08:01:26
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:26
+
+Log opened at 2016-07-07 08:01:27
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:27
+
+Log opened at 2016-07-07 08:01:32
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:32
+
+Log opened at 2016-07-07 08:01:33
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:34
+
+Log opened at 2016-07-07 08:01:38
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:38
+
+Log opened at 2016-07-07 08:01:40
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:40
+
+Log opened at 2016-07-07 08:01:44
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:44
+
+Log opened at 2016-07-07 08:01:46
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:46
+
+Log opened at 2016-07-07 08:01:50
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:50
+
+Log opened at 2016-07-07 08:01:52
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:52
+
+Log opened at 2016-07-07 08:01:56
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:57
+
+Log opened at 2016-07-07 08:01:58
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:01:58
+
+Log opened at 2016-07-07 08:02:03
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:03
+
+Log opened at 2016-07-07 08:02:04
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:05
+
+Log opened at 2016-07-07 08:02:09
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:09
+
+Log opened at 2016-07-07 08:02:11
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:11
+
+Log opened at 2016-07-07 08:02:15
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:15
+
+Log opened at 2016-07-07 08:02:17
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:17
+
+Log opened at 2016-07-07 08:02:21
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:22
+
+Log opened at 2016-07-07 08:02:23
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:23
+
+Log opened at 2016-07-07 08:02:28
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:28
+
+Log opened at 2016-07-07 08:02:29
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:30
+
+Log opened at 2016-07-07 08:02:34
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:34
+
+Log opened at 2016-07-07 08:02:36
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:36
+
+Log opened at 2016-07-07 08:02:40
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:40
+
+Log opened at 2016-07-07 08:02:42
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:42
+
+Log opened at 2016-07-07 08:02:46
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:47
+
+Log opened at 2016-07-07 08:02:48
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:48
+
+Log opened at 2016-07-07 08:02:53
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:53
+
+Log opened at 2016-07-07 08:02:54
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:55
+
+Log opened at 2016-07-07 08:02:59
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:02:59
+
+Log opened at 2016-07-07 08:03:01
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:01
+
+Log opened at 2016-07-07 08:03:05
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:05
+
+Log opened at 2016-07-07 08:03:07
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:07
+
+Log opened at 2016-07-07 08:03:11
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:12
+
+Log opened at 2016-07-07 08:03:13
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:13
+
+Log opened at 2016-07-07 08:03:18
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:18
+
+Log opened at 2016-07-07 08:03:19
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:19
+
+Log opened at 2016-07-07 08:03:24
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:24
+
+Log opened at 2016-07-07 08:03:25
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:26
+
+Log opened at 2016-07-07 08:03:30
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:30
+
+Log opened at 2016-07-07 08:03:32
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:32
+
+Log opened at 2016-07-07 08:03:36
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:36
+
+Log opened at 2016-07-07 08:03:38
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:38
+
+Log opened at 2016-07-07 08:03:42
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:42
+
+Log opened at 2016-07-07 08:03:44
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:44
+
+Log opened at 2016-07-07 08:03:48
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:49
+
+Log opened at 2016-07-07 08:03:50
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:50
+
+Log opened at 2016-07-07 08:03:55
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:55
+
+Log opened at 2016-07-07 08:03:57
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:03:57
+
+Log opened at 2016-07-07 08:04:01
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:01
+
+Log opened at 2016-07-07 08:04:03
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:03
+
+Log opened at 2016-07-07 08:04:07
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:07
+
+Log opened at 2016-07-07 08:04:09
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:09
+
+Log opened at 2016-07-07 08:04:13
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:13
+
+Log opened at 2016-07-07 08:04:15
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:15
+
+Log opened at 2016-07-07 08:04:19
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:19
+
+Log opened at 2016-07-07 08:04:21
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:21
+
+Log opened at 2016-07-07 08:04:25
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:26
+
+Log opened at 2016-07-07 08:04:27
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:27
+
+Log opened at 2016-07-07 08:04:32
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:32
+
+Log opened at 2016-07-07 08:04:33
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:34
+
+Log opened at 2016-07-07 08:04:38
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:38
+
+Log opened at 2016-07-07 08:04:40
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:40
+
+Log opened at 2016-07-07 08:04:44
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:44
+
+Log opened at 2016-07-07 08:04:46
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:46
+
+Log opened at 2016-07-07 08:04:50
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:51
+
+Log opened at 2016-07-07 08:04:52
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:53
+
+Log opened at 2016-07-07 08:04:57
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:57
+
+Log opened at 2016-07-07 08:04:59
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:04:59
+
+Log opened at 2016-07-07 08:05:03
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:03
+
+Log opened at 2016-07-07 08:05:05
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:05
+
+Log opened at 2016-07-07 08:05:09
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:09
+
+Log opened at 2016-07-07 08:05:11
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:11
+
+Log opened at 2016-07-07 08:05:15
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:16
+
+Log opened at 2016-07-07 08:05:17
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:18
+
+Log opened at 2016-07-07 08:05:22
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:22
+
+Log opened at 2016-07-07 08:05:24
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:24
+
+Log opened at 2016-07-07 08:05:28
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:28
+
+Log opened at 2016-07-07 08:05:30
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:30
+
+Log opened at 2016-07-07 08:05:34
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:34
+
+Log opened at 2016-07-07 08:05:36
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:36
+
+Log opened at 2016-07-07 08:05:40
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:41
+
+Log opened at 2016-07-07 08:05:42
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:42
+
+Log opened at 2016-07-07 08:05:47
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:47
+
+Log opened at 2016-07-07 08:05:48
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:48
+
+Log opened at 2016-07-07 08:05:53
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:53
+
+Log opened at 2016-07-07 08:05:54
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:55
+
+Log opened at 2016-07-07 08:05:59
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:05:59
+
+Log opened at 2016-07-07 08:06:01
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:01
+
+Log opened at 2016-07-07 08:06:05
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:05
+
+Log opened at 2016-07-07 08:06:07
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:07
+
+Log opened at 2016-07-07 08:06:11
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:11
+
+Log opened at 2016-07-07 08:06:13
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:13
+
+Log opened at 2016-07-07 08:06:17
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:18
+
+Log opened at 2016-07-07 08:06:19
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:19
+
+Log opened at 2016-07-07 08:06:24
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:24
+
+Log opened at 2016-07-07 08:06:26
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:26
+
+Log opened at 2016-07-07 08:06:30
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:30
+
+Log opened at 2016-07-07 08:06:32
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:32
+
+Log opened at 2016-07-07 08:06:36
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:36
+
+Log opened at 2016-07-07 08:06:38
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:38
+
+Log opened at 2016-07-07 08:06:42
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:42
+
+Log opened at 2016-07-07 08:06:44
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:44
+
+Log opened at 2016-07-07 08:06:49
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:49
+
+Log opened at 2016-07-07 08:06:50
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:50
+
+Log opened at 2016-07-07 08:06:55
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:55
+
+Log opened at 2016-07-07 08:06:56
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:06:57
+
+Log opened at 2016-07-07 08:07:01
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:01
+
+Log opened at 2016-07-07 08:07:03
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:03
+
+Log opened at 2016-07-07 08:07:07
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:07
+
+Log opened at 2016-07-07 08:07:09
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:09
+
+Log opened at 2016-07-07 08:07:13
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:14
+
+Log opened at 2016-07-07 08:07:15
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:15
+
+Log opened at 2016-07-07 08:07:20
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:20
+
+Log opened at 2016-07-07 08:07:21
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:21
+
+Log opened at 2016-07-07 08:07:26
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:26
+
+Log opened at 2016-07-07 08:07:27
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:28
+
+Log opened at 2016-07-07 08:07:32
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:32
+
+Log opened at 2016-07-07 08:07:33
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:34
+
+Log opened at 2016-07-07 08:07:38
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:38
+
+Log opened at 2016-07-07 08:07:40
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:40
+
+Log opened at 2016-07-07 08:07:44
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:44
+
+Log opened at 2016-07-07 08:07:46
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:46
+
+Log opened at 2016-07-07 08:07:50
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:50
+
+Log opened at 2016-07-07 08:07:52
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:52
+
+Log opened at 2016-07-07 08:07:56
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:57
+
+Log opened at 2016-07-07 08:07:58
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:07:59
+
+Log opened at 2016-07-07 08:08:03
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:03
+
+Log opened at 2016-07-07 08:08:05
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:05
+
+Log opened at 2016-07-07 08:08:09
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:09
+
+Log opened at 2016-07-07 08:08:11
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:11
+
+Log opened at 2016-07-07 08:08:15
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:15
+
+Log opened at 2016-07-07 08:08:17
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:17
+
+Log opened at 2016-07-07 08:08:21
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:21
+
+Log opened at 2016-07-07 08:08:23
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:23
+
+Log opened at 2016-07-07 08:08:27
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:28
+
+Log opened at 2016-07-07 08:08:29
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:29
+
+Log opened at 2016-07-07 08:08:34
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:34
+
+Log opened at 2016-07-07 08:08:35
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:36
+
+Log opened at 2016-07-07 08:08:40
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:40
+
+Log opened at 2016-07-07 08:08:41
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:42
+
+Log opened at 2016-07-07 08:08:46
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:46
+
+Log opened at 2016-07-07 08:08:48
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:48
+
+Log opened at 2016-07-07 08:08:52
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:52
+
+Log opened at 2016-07-07 08:08:54
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:54
+
+Log opened at 2016-07-07 08:08:58
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:08:59
+
+Log opened at 2016-07-07 08:09:00
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:00
+
+Log opened at 2016-07-07 08:09:05
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:05
+
+Log opened at 2016-07-07 08:09:06
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:07
+
+Log opened at 2016-07-07 08:09:11
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:11
+
+Log opened at 2016-07-07 08:09:13
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:13
+
+Log opened at 2016-07-07 08:09:17
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:17
+
+Log opened at 2016-07-07 08:09:19
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:19
+
+Log opened at 2016-07-07 08:09:23
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:24
+
+Log opened at 2016-07-07 08:09:25
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:25
+
+Log opened at 2016-07-07 08:09:29
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:30
+
+Log opened at 2016-07-07 08:09:31
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:31
+
+Log opened at 2016-07-07 08:09:36
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:36
+
+Log opened at 2016-07-07 08:09:38
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:38
+
+Log opened at 2016-07-07 08:09:42
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:42
+
+Log opened at 2016-07-07 08:09:44
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:44
+
+Log opened at 2016-07-07 08:09:48
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:48
+
+Log opened at 2016-07-07 08:09:50
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:50
+
+Log opened at 2016-07-07 08:09:54
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:55
+
+Log opened at 2016-07-07 08:09:56
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:09:56
+
+Log opened at 2016-07-07 08:10:01
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:10:01
+
+Log opened at 2016-07-07 08:10:03
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:10:03
+
+Log opened at 2016-07-07 08:10:07
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:10:07
+
+Log opened at 2016-07-07 08:10:09
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:10:09
+
+Log opened at 2016-07-07 08:10:13
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:10:13
+
+Log opened at 2016-07-07 08:10:15
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:10:15
+
+Log opened at 2016-07-07 08:10:19
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:10:19
+
+Log opened at 2016-07-07 08:10:21
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:10:21
+
+Log opened at 2016-07-07 08:10:25
+I: Connecting to configured address/port: localhost:9600.
+E: Time-out connecting to client. :-(
+Log closed at 2016-07-07 08:10:26
+

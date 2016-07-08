@@ -15,8 +15,6 @@ class SendReminderEmail extends Job implements ShouldQueue {
         SerializesModels;
 
     protected $user;
-    
-    protected  $repeats = 2;
 
     /**
      * Create a new job instance.
@@ -37,9 +35,9 @@ class SendReminderEmail extends Job implements ShouldQueue {
      * @return void
      */
     public function handle(Mailer $mailer) {
-        
+
         $user = $this->user;
-        
+
         $mailer->send('test.emails.reminder', ['user' => $user], function ($m) use ($user) {
             // Get mail to
             $email = $user->email;
@@ -53,10 +51,10 @@ class SendReminderEmail extends Job implements ShouldQueue {
             $m->to($email);
         });
         
-//        if($this->repeats){
-//            $this->repeats = $this->repeats - 1;
-//            $this->release(5);
-//        }
+        // The job is performed three times with a 5 second delay
+        if ($this->attempts() < 3) {
+            $this->release(5);
+        }
     }
 
 }

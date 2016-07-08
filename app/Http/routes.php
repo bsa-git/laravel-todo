@@ -43,7 +43,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::resource('photo', 'PhotoController');
     
     // Route - test
-    Route::get('/test/mail', 'TestController@mail');
+    Route::get('/test/job', 'TestController@job');
     Route::get('/test/mail_from_template', 'TestController@mail_from_template');
     Route::get('/test/mailgun', 'TestController@mailgun');
     Route::get('/test/db', 'TestController@db');
