@@ -47,7 +47,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/test/mail_from_template', 'TestController@mail_from_template');
     Route::get('/test/mailgun', 'TestController@mailgun');
     Route::get('/test/db', 'TestController@db');
-    Route::get('/test/encrypt', 'TestController@encrypt');//addtask
+    Route::get('/test/encrypt', 'TestController@encrypt');
     Route::get('/test/addtask/{task}', 'TestController@addtask');
     
     // Route - auth

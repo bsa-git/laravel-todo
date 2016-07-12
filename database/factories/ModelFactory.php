@@ -11,12 +11,15 @@
 |
 */
 
+//use Illuminate\Encryption\Encrypter;
+
 $factory->define(App\User::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
         'email' => $faker->safeEmail,
         'password' => bcrypt(str_random(10)),
         'remember_token' => str_random(10),
+        'secret' => Illuminate\Support\Facades\Crypt::encrypt("Secret information for user - {$faker->name}")
     ];
 });
 

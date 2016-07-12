@@ -52,7 +52,7 @@ class SendReminderEmail extends Job implements ShouldQueue {
         });
         
         // The job is performed three times with a 5 second delay
-        if ($this->attempts() < 3) {
+        if ($this->attempts() < 2) {
             $this->release(5);
         }
     }

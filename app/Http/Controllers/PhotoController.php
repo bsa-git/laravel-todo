@@ -19,7 +19,7 @@ class PhotoController extends Controller
     public function index()
     {
         return view('photo.index', [
-            'photo_action' => 'Action-"GET(photo.index)"',
+            'photo_action' => 'Action-GET(photo.index)',
         ]);
     }
 
@@ -33,7 +33,7 @@ class PhotoController extends Controller
     public function create()
     {
         return view('photo.index', [
-            'photo_action' => 'Action-"GET(photo.create)"',
+            'photo_action' => 'Action-GET(photo.create)',
         ]);
     }
 
@@ -48,7 +48,7 @@ class PhotoController extends Controller
     public function store(Request $request)
     {
         return view('photo.index', [
-            'photo_action' => 'Action-"POST(photo.store)"',
+            'photo_action' => 'Action-POST(photo.store)',
         ]);
     }
 
@@ -63,7 +63,7 @@ class PhotoController extends Controller
     public function show($id)
     {
         return view('photo.index', [
-            'photo_action' => 'Action-"GET(photo.show)"',
+            'photo_action' => 'Action-GET(photo.show)',
         ]);
     }
 
@@ -78,7 +78,7 @@ class PhotoController extends Controller
     public function edit($id)
     {
         return view('photo.index', [
-            'photo_action' => 'Action-"GET(photo.edit)"',
+            'photo_action' => 'Action-GET(photo.edit)',
         ]);
     }
 
@@ -94,7 +94,7 @@ class PhotoController extends Controller
     public function update(Request $request, $id)
     {
         return view('photo.index', [
-            'photo_action' => 'Action-"PUT/PATCH(photo.update)"',
+            'photo_action' => 'Action-PUT(photo.update)',
         ]);
     }
 
@@ -109,7 +109,7 @@ class PhotoController extends Controller
     public function destroy($id)
     {
         return view('photo.index', [
-            'photo_action' => 'Action-"DELETE(photo.destroy)"',
+            'photo_action' => 'Action-DELETE(photo.destroy)',
         ]);
     }
 }

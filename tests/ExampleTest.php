@@ -47,6 +47,8 @@ class ExampleTest extends TestCase
     {
         $user = factory(User::class)->create();
 
+        $parTaskOne = factory(Task::class);
+        
         $user->tasks()->save($taskOne = factory(Task::class)->create());
         $user->tasks()->save($taskTwo = factory(Task::class)->create());
 
